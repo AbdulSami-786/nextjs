@@ -15,7 +15,6 @@ function Header() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-semibold">
           <a href="/" className="hover:text-blue-600">Home</a>
-          <a href="/products" className="hover:text-blue-600">Products</a>
           <a href="/about" className="hover:text-blue-600">About</a>
           <a href="/contact" className="hover:text-blue-600">Contact</a>
         </nav>
@@ -45,7 +44,6 @@ function Header() {
       {isOpen && (
         <nav className="md:hidden bg-white shadow-md">
           <a href="/" className="block px-6 py-3 text-gray-700 font-semibold hover:bg-blue-50">Home</a>
-          <a href="/products" className="block px-6 py-3 text-gray-700 font-semibold hover:bg-blue-50">Products</a>
           <a href="/about" className="block px-6 py-3 text-gray-700 font-semibold hover:bg-blue-50">About</a>
           <a href="/contact" className="block px-6 py-3 text-gray-700 font-semibold hover:bg-blue-50">Contact</a>
         </nav>
